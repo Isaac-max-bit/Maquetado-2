@@ -1,0 +1,72 @@
+/* src/styles/App.css */
+
+/* Estilos específicos para ClientsPage */
+.clients-page {
+    padding: 20px;
+}
+
+.clients-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.clients-page .client-list {
+    margin-top: 20px;
+}
+
+/* Estilos para el detalle del cliente */
+.client-detail {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+/* src/styles/App.css */
+
+/* Estilos específicos para ProductsPage */
+.products-page {
+    padding: 20px;
+}
+
+.products-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.products-page .product-list {
+    margin-top: 20px;
+}
+
+/* Estilos para el detalle del producto */
+.product-detail {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+/* src/styles/App.css */
+
+/* Estilos específicos para ProductList */
+.product-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-list div {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 15px;
+    transition: box-shadow 0.3s;
+}
+
+.product-list div:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
