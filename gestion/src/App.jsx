@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ClientsPage from './pages/ClientsPage';
 import ProductsPage from './pages/ProductsPage';
@@ -8,11 +8,11 @@ import ProductsPage from './pages/ProductsPage';
 const App = () => {
   return (
     <Router>
-      <Switch>
-        <Route path="/" exact component={HomePage} />
-        <Route path="/clients" component={ClientsPage} />
-        <Route path="/products" component={ProductsPage} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/clients" element={<ClientsPage />} />
+        <Route path="/products" element={<ProductsPage />} />
+      </Routes>
     </Router>
   );
 };
